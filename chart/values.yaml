@@ -1,0 +1,7 @@
+deployment:
+  replica: 2
+image:
+  name: 17895/devops
+  tag: latest
+http:
+  port: 5000

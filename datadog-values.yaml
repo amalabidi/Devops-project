@@ -1,0 +1,13 @@
+datadog:
+  apiKey: 4fe5bd0ebec4ae0679d061e6b50a4d61
+
+  kubelet:
+    tlsVerify: false
+  logs:
+    enabled: true
+    containerCollectAll: true
+  otlp:
+    receiver:
+      protocols:
+        grpc:
+          enabled: true

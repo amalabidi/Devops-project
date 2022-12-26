@@ -1,0 +1,30 @@
+{
+    "name": "shop-api",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "@opentelemetry/instrumentation-express": "^0.32.0",
+        "@opentelemetry/instrumentation-http": "^0.34.0",
+        "@opentelemetry/node": "^0.24.0",
+        "@opentelemetry/plugin-express": "^0.15.0",
+        "@opentelemetry/plugin-http": "^0.18.2",
+        "@opentelemetry/sdk-trace-node": "^1.8.0",
+        "@ptkdev/logger": "^1.8.0",
+        "cf-nodejs-logging-support": "^6.14.0",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "debug": "~2.6.9",
+        "express": "^4.16.4",
+        "express-request-id": "^3.0.0",
+        "express-ruid": "^1.1.4",
+        "http-errors": "~1.6.3",
+        "jade": "~1.11.0",
+        "mongoose": "^6.8.0",
+        "morgan": "^1.9.1",
+        "prom-client": "^14.1.0",
+        "winston": "^3.8.2"
+    }
+}

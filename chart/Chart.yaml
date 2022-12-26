@@ -1,0 +1,4 @@
+apiVersion: v2
+name: devops-project
+version: 0.1.0
+description: Helm chart to install A book shop API used to order books
